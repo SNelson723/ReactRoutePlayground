@@ -4,12 +4,12 @@ import { Outlet } from "react-router-dom";
 const App = () => {
 
   return (
-    <>
+    <div className="w-screen">
       <Navbar />
-      <div className="container">
+      <div>
         <Outlet />
       </div>
-    </>
+    </div>
   )
 }
 
